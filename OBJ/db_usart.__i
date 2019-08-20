@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\lcd12864 -I..\HARDWARE\iic -I..\HARDWARE\BMP180 -I..\HARDWARE\MAX6675 -I..\HARDWARE\uart1 -I..\HARDWARE\ADC -I..\HARDWARE\GP2Y -I..\HARDWARE\SPI -I..\HARDWARE\AMME -I..\HARDWARE\USART
+-I F:\学习资料\进行时\物联网\test3\USER\RTE
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I D:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DCHAR_CODE
+-o ..\obj\db_usart.o --omf_browse ..\obj\db_usart.crf --depend ..\obj\db_usart.d "..\HARDWARE\USART\db_usart.c"

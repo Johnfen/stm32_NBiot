@@ -1,0 +1,25 @@
+AT+NSOCR=DGRAM,17,5681,1
+AT+NSOST=0,123.57.41.13,8899,2,3322
+AT+CSCON? //查询联网状况
+联网成功返回+CSCON:0,1 OK
+AT+CGATT?
+就是在开始输入命令mstsc
+
+
+
+123.57.41.13
+
+账号administrator
+
+密码Jesse6838362
+
+
+严格注意大小写
+//测试中每隔40s发送一次接收较好
+//电压，电流，功率。///温度，气压，粉尘浓度。
+AT+NCONFIG?
+AT+CIMI
+AT+CFUN?
+AT+NSOCR=DGRAM,17,5681,1
+设备标识码：设备唯一标识。使用NB模组对接时，填写模组的IMEI号码。IMEI号为15位数，一般以86开头，
+贴于NB模组标签上，或可通过AT+CGSN=1指令查询得到。
